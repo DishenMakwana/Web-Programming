@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISHEN</title>
+        <script>
+            function isNumber(event) {
+                var charCode = event.keyCode;
+                if (charCode < 48 || charCode > 57) {
+                    return false;
+                }
+                return true;
+            }
+
+            function fun() {
+                let number = Number(document.getElementById('number').value);
+                document.write('Fibonacci serise : ');
+
+                var x = 0,
+                    y = 1,
+                    z = 0;
+                document.write('0 1 ');
+                for (let i = 2; i < number; i++) {
+                    z = x + y;
+                    document.write(z + ' ');
+                    x = y;
+                    y = z;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        Enter a number :
+        <input type="text" id="number" onkeypress="return isNumber(event)" />
+        <input type="button" onclick="fun()" value="check" />
+        <br />
+        <p id="ans"></p>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+1. 300  - Multiple Choices
+2. 201  - Created
+3. 404  - Not Found
+4. 500  - Internal Server Error
+5. 401  - Unauthenticated
+6. 408  - Request Timeout
+7. 200  - OK
+8. 405  - Method Not Allowed

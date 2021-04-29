@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISHEN</title>
+        <script>
+            function isString(event) {
+                var charCode = event.keyCode;
+                if (charCode < 65 || charCode > 123) {
+                    return false;
+                }
+                return true;
+            }
+
+            function fun() {
+                let string = String(document.getElementById('string').value);
+                for (let i = 0; i < string.length; i++) {
+                    if (i % 2 == 1) {
+                        document.write(string[i] + '    ');
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        Enter a String :
+        <input type="text" id="string" onkeypress="return isString(event)" />
+        <input type="button" onclick="fun()" value="check" />
+        <br />
+        <p id="ans"></p>
+    </body>
+</html>

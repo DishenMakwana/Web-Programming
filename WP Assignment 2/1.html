@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <script>
+            function is_numeric(str) {
+                return /^\d+$/.test(str);
+            }
+
+            function validateform() {
+                var name = document.myform.name.value;
+                var password = document.myform.password.value;
+
+                if (name == null || name == '') {
+                    alert("Name can't be blank");
+                    return false;
+                } else if (
+                    name.charAt(0) == '_' ||
+                    name.charAt(0) == '@' ||
+                    is_numeric(name.charAt(0))
+                ) {
+                    alert('Username should not start with _, @ or number');
+                    return false;
+                } else if (password.length < 6 || password.length > 12) {
+                    alert('Password must be at least 6 characters long.');
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" method="post" onsubmit="return validateform()">
+            Name: <input type="text" name="name" /><br />
+            Password: <input type="password" name="password" /><br />
+            <input type="submit" value="register" />
+        </form>
+    </body>
+</html>

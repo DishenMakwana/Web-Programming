@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+    </head>
+    <body>
+        <div>
+            <form action="insert.php" method="post" align="center">
+                <table>
+                    <tr>
+                        <td>Student Enrollment :</td>
+                        <td>
+                            <input type="number" name="er_no" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Student Name :</td>
+                        <td>
+                            <input type="text" name="sname" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Semester :</td>
+                        <td>
+                            <input type="number" name="semester" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender :</label></td>
+                        <td>
+                            <input
+                                type="radio"
+                                id="male"
+                                name="gender"
+                                checked
+                            />Male
+                        </td>
+                        >
+                        <td>
+                            <input
+                                type="radio"
+                                id="female"
+                                name="gender"
+                            />Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Qualification :</td>
+                        <td><input type="text" name="qualification" /></td>
+                    </tr>
+                    <tr>
+                        <td><br /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center">
+                            <input type="submit" name="submit" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

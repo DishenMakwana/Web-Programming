@@ -1,0 +1,104 @@
+Myth 1. Appearance is the most important aspect of website design
+Though appearance is one of the crucial aspects of website design, it is not the only aspect associated with design industry. 
+A website design does not indicate that your site should only look beautiful. What good would a beautiful looking site do to your 
+business if it does not have relevant content or easy navigation for the users?
+
+Myth busted: A majority of small businesses design put all of their efforts in making their website look good while overlooking 
+the places which need the utmost attention. The web design myth occurs when we get caught up on the idea that design is all about 
+images, visuals and graphics. The way a site is presented is a crucial aspect of design. If you had a nice looking site where you 
+couldn’t even read the content, then that’s just a design flaw that needs to be handled.
+
+Myth 2. No need for a mobile version site
+There are still a number of webmasters that do not consider responsiveness an important aspect. Mobile basically involves tablets, 
+smartphones and netbooks that account for more than 35% of the traffic.
+
+Myth busted: As a matter of fact, more than 40% of web users use their smartphones and tablets more than desktops or laptops. 
+In addition, Google has also started considering responsiveness an important factor while indexing websites. You do need a 
+mobile-friendly version of your website to avoid missing a lot of potential customers. Make sure you always hire a web agency 
+that makes your website responsive rather than dead and buried
+
+Myth 3. Sales Oriented Site
+Yes, you do build websites to improve your sales and ROI. But it should not act like it is a sales tool. Not every visitor lands 
+on your website are ready to be sold. You need to give your visitors enough reasons to choose you over your competitors.
+
+Myth busted: A sales-oriented website is full of graphics and buttons that actually begs visitors to click them. Building a 
+sales oriented site does not encourage return visitors; however, an easy to navigate and a content-rich website does.
+
+Myth 4. I don’t need social media buttons on my site
+Google+, LinkedIn, Twitter, Facebook, Instagram and so much more – the list is never ending. Connecting with each and every 
+social media network is not only time consuming but also requires a lot of efforts on your part.
+
+Myth busted: Social media plays an important role in improving your site’s traffic as well as search engine rankings. Instead 
+of sharing content on every platform, adding social media buttons is a way better option. Social media buttons ensure that your 
+social media pages are a just a click away.
+
+Myth 5: Free site can solve the purpose
+Who doesn’t love free things? Everybody does! But when it comes to establishing an online presence, it is always advisable to 
+avoid building free sites.
+
+Myth busted: Free things always come with a catch. And free sites are no different. First of all, there will be a lot of 
+advertisement done on your site. Secondly, the domain name you choose would not represent your business. Thirdly, you would 
+not have complete control over your site. If you are serious about your business, don’t lose it with lame decisions.
+
+Myth 6: I do not need content to design a website
+Most of the web designers develop a wireframe adding “Lorem Ipsum” as the dummy text. But, using dummy text makes the design 
+unrealistic. The sad part is it develops the illusion that the content is the secondary requirement.
+
+Myth busted: The fact is that users visit your website to get the information they are searching for. Yes, they browse the site 
+for the content, not design. Content is the essential component in user interface design. A website that contains a simple design 
+with high-quality content can do much better on usability test compared to an attractive design with pointless or dummy text.
+
+Myth 7: Design is all about making website attractive
+Most of the designer takes web design as decoration. They think the main goal of web design is to make a website attractive. 
+Yet, the design should focus more on something how it works rather than the appearance.
+
+Myth busted: Design is more about form and function. Indeed, the main aim of the design is to solve the issue effectively. It 
+is based on the expectation of users from the online solution. Also, the tool of the designer is more than just colours, and 
+typography. It also contains user research, prototyping, testing, user experience, navigation and many others.
+
+Myth 8: Websites updates are not necessary
+Will the design remain content forever? The mistake that most of the people make while developing a site is not focusing on the 
+recent trends.
+
+Myth busted: A Web design trend evolves together with devices and web browsers. An approach to developing a website should be 
+continuous. You should keep on updating and expanding the site with new ideas and concepts. It is better to redesign the site 
+in every 2-3 years to make sure the site operates well.
+
+Myth 9: I should like my website
+You do not develop a website for yourself; rather you develop to give information to the users. So ask yourself. Is my website 
+informative? What information are my users looking for? What should I include to switch the users into the potential customer?
+
+Myth busted: Well, you are not an expert to know everything. Or, you do not have black magic to know the expectation of your users. 
+Better ask them to give feedback on the products and service you offer. This helps you to know their expectation from your 
+business and work accordingly.
+
+Myth 10: Adding more features gives better design
+Do you think adding more features gives better design? Well, you should focus on adding appropriate features rather than more 
+features. Adding unnecessary features can make your design pointless.
+
+Myth busted: There are lots of websites making use experience unreasonably complex. This is because of unwanted features added 
+on the website. Indeed features add plus points to your design. But, make sure it is relevant and contribute in driving the 
+conversions.
+
+Myth 11: Home page matters the most
+Most of the designers design the website concentrating more on the website. Do you think it is a good idea? Well, it might 
+be the web design myth.
+
+Myth busted: It is not necessary to focus only on the website. Due to the boost of search and paid links are clicked by the 
+users, the customer might not notice your homepage as well. Here, focusing only on the home page might waste your time. Better 
+have a constant design flow all over the site.
+
+Myth 12: Good web design is expensive
+Most of the people have misconception thinking that good web design is expensive. This is not true as there are lots of 
+reasonably priced remarkable websites.
+
+Myth busted: Today, there are lots of content management system (WordPress, Joomla, Weebly and many others) available that 
+helps to accomplish your web design venture easily and quickly. Keep in mind, beautiful design is standard that can be 
+developed in a cost-effective way as well.
+
+Myth 13: It is not necessary to integrate your website with Email marketing
+Since email and search are the most wide-spread internet approach, if you ignore this you might be left behind your competitors.
+
+Myth busted: The email produced from your website is very important. Email marketing is useful when you do it in a right way. 
+This is the main reason you require a digital marketing agency. If not, your customers might get bored of you poor value offer 
+and the monthly newsletter.

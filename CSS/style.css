@@ -1,0 +1,30 @@
+:root {
+	--blue: #1e90ff;
+	--white: #ffffff;
+}
+
+#div1 {
+	text-align: center;
+	color: var(--blue);
+	margin-left: 40px;
+}
+
+img {
+	background-color: var(--blue);
+	background-repeat: repeat;
+	background-attachment: fixed/scroll;
+	background-position: right top;
+}
+
+[class|='div'] {
+	--green: green;
+	background-color: --green;
+}
+
+[class^='div'] {
+	background-color: #1e90ff;
+}
+
+[class$='div'] {
+	background: yellow;
+}

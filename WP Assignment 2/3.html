@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vowels</title>
+        <script>
+            window.onkeyup = changeColor;
+            function KeyPress(e) {
+                var keyNum;
+                keyNum = e.which;
+                var char = String.fromCharCode(keyNum);
+
+                if (
+                    char == 'a' ||
+                    char == 'e' ||
+                    char == 'i' ||
+                    char == 'o' ||
+                    char == 'u'
+                ) {
+                    alert('you have pressed vowel');
+                }
+                alert(
+                    'you pressed' + char + '& keycode for that key is ' + keyNum
+                );
+            }
+
+            function changeColor() {
+                document.getElementById('txt').style.backgroundColor = 'blue';
+            }
+        </script>
+    </head>
+    <body>
+        Enter character
+        <input
+            type="text"
+            id="txt"
+            onkeyup="changeColor()"
+            onkeypress="KeyPress(event)"
+        />
+    </body>
+</html>

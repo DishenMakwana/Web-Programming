@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dishen</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset style="width: 30%">
+                <legend>User Info</legend>
+                <label for="fname">First name:</label><br />
+                <input type="text" id="fname" name="fname" /><br />
+                <label for="lname">Last name:</label><br />
+                <input type="text" id="lname" name="lname" /><br />
+                <label for="age">Age:</label><br />
+                <input type="number" id="age" name="age" /><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" /><br />
+                <label for="gender">Gender:</label><br />
+                <input type="radio" id="male" name="gender" checked />Male<br />
+                <input type="radio" id="female" name="gender" />Female<br />
+                <label for="phnno">Phone Number:</label><br />
+                <input type="number" id="phnno" name="phnno" /><br />
+                <label for="hobby">hobby:</label><br />
+                <input
+                    type="checkbox"
+                    id="cricket"
+                    name="hobby"
+                    checked
+                />Cricket<br />
+                <input type="checkbox" id="coding" name="hobby" />Coding<br />
+                <input
+                    type="checkbox"
+                    id="learning"
+                    name="hobby"
+                />Learning<br /><br />
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <form action="">
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars" form="carform">
+                <option value="">---Select a card type---</option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="">---Select a card type---</option>
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+            <br />
+            <br />
+
+            <label for="card_type">Choose a card:</label>
+            <select name="card_type" id="card_type" required>
+                <option value="">---Select a card type---</option>
+                <optgroup label="visa">
+                    <option value="VisaGold">Visa Gold</option>
+                    <option value="VisaClassic">Visa Classic</option>
+                    <option value="VisaPlatinum">Visa Platinum</option>
+                </optgroup>
+                <optgroup label="mastercard" disabled>
+                    <option value="wmastercard">World MasterCard</option>
+                    <option value="wemastercard">World Elite MasterCard</option>
+                </optgroup>
+                <option value="rupay">RuPay</option>
+            </select>
+            <br />
+            <br />
+
+            <textarea
+                name="address"
+                id="adress"
+                cols="30"
+                rows="10"
+                wrap="soft"
+            >
+Type Your Address here.</textarea
+            >
+        </form>
+        <br />
+        <br />
+        <br />
+
+        <form action="">
+            <fieldset style="width: 30%">
+                <legend style="float: right">User Info</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" /><br /><br />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" /><br />
+                <br />
+                <label for="address">Address:</label><br />
+                <textarea
+                    name="address"
+                    id="adress"
+                    cols="30"
+                    rows="10"
+                    wrap="soft"
+                >
+Type Your Address here.</textarea
+                >
+                <br />
+                <label for="book">Subject of Book:</label>
+                <input type="radio" id="Science" name="book" checked />Science
+                <input type="radio" id="Commerce" name="book" />Commerce
+                <input type="radio" id="Arts" name="book" />Arts <br /><br />
+                <label for="authors">Favorite Author:</label>
+                <select name="author" id="author" form="authorform">
+                    <option value="">---Select a Author---</option>
+                    <option value="ram">Ram</option>
+                    <option value="raj">Raj</option>
+                    <option value="gopal">Gopal</option>
+                    <option value="varma">Varma</option>
+                </select>
+                <br />
+                <br />
+                <textarea
+                    name="feedback"
+                    id="feedback"
+                    cols="30"
+                    rows="10"
+                    wrap="soft"
+                >
+Type Your Feedback here.</textarea
+                >
+            </fieldset>
+        </form>
+        <br /><br /><br />
+
+        <form>
+            <fieldset style="width: 30%">
+                <legend>User Info</legend>
+                <br />
+                <label for="fname">User name : </label>
+                <input type="text" id="fname" name="fname" /><br /><br />
+                <label for="password">Password : </label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                /><br /><br />
+                <input type="checkbox" id="remember" name="RememberMe" />
+                Remember Me <br /><br />
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+        <br /><br /><br />
+        <form>
+            <fieldset style="width: 30%">
+                <legend>Registration Form</legend>
+                <label for="fname">User name : </label><br />
+                <input type="text" id="fname" name="fname" /><br />
+                <label for="password">Password : </label><br />
+                <input type="password" id="password" name="password" /><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" /><br />
+                <label for="phnno">Phone Number:</label><br />
+                <input type="number" id="phnno" name="phnno" /><br />
+                <label for="gender">Gender:</label><br />
+                <input type="radio" id="male" name="gender" checked />Male<br />
+                <input type="radio" id="female" name="gender" />Female<br />
+                <label for="hobby">hobby:</label><br />
+                <input
+                    type="checkbox"
+                    id="cricket"
+                    name="hobby"
+                    checked
+                />Cricket<br />
+                <input type="checkbox" id="coding" name="hobby" />Coding<br />
+                <input
+                    type="checkbox"
+                    id="learning"
+                    name="hobby"
+                />Learning<br /><br />
+                <label for="Address">Address:</label><br />
+                <textarea
+                    name="feedback"
+                    id="feedback"
+                    cols="30"
+                    rows="10"
+                    wrap="soft"
+                >
+Type Your Feedback here.</textarea
+                ><br /><br />
+                <label for="city">Choose a City:</label>
+                <select name="city" id="city" form="cityform">
+                    <option value="">---Select a card type---</option>
+                    <option value="volvo">abd</option>
+                    <option value="saab">vadodara</option>
+                    <option value="opel" selected>Rajkot</option>
+                    <option value="audi">Surat</option></select
+                ><br /><br />
+                <label for="state">Choose a State:</label>
+                <select name="state" id="state" form="stateform">
+                    <option value="">---Select a card type---</option>
+                    <option value="volvo" selected>Gujarat</option>
+                    <option value="saab">Maharastra</option>
+                    <option value="opel">Delhi</option>
+                    <option value="audi">UP</option></select
+                ><br /><br />
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile" /><br /><br />
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+<!-- lorem*5 -->

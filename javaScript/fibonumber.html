@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISHEN</title>
+        <script>
+            function fibonacci(num) {
+                if (num === 1) {
+                    return 0;
+                }
+                if (num === 2) {
+                    return 1;
+                }
+                return fibonacci(num - 1) + fibonacci(num - 2);
+            }
+
+            var number = prompt('Enter a number');
+            document.write('</br>');
+            document.write('Fibonacci serise : ');
+
+            var x = 0,
+                y = 1,
+                z = 0;
+            document.write('0 1 ');
+            for (let i = 2; i < number; i++) {
+                z = x + y;
+                document.write(z + ' ');
+                x = y;
+                y = z;
+            }
+        </script>
+    </head>
+    <body></body>
+</html>

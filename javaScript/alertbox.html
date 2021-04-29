@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALERT</title>
+  <script>
+    alert("Hello! I am an alert box!! for " + location.hostname);
+
+    var x = confirm("Are You Sure?");
+    if (x === true) {
+      document.write("Confirm");
+    } else {
+      document.write("Not Confirm");
+    }
+
+    var name = prompt("Enter your name", "Dishen Makwana");
+    if (name === null) {
+      document.write("No Response");
+    } else {
+      document.write("Get Response " + name)
+    }
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

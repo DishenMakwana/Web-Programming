@@ -1,0 +1,39 @@
+What is the difference between visibility:hidden and display:none ?
+Last Updated : 25 Jun, 2020
+Both of the property is quite useful in CSS. The visibility: “hidden”; property is used to specify whether an element is visible 
+or not in a web document but the hidden elements take up space in the web document. The visibility is a property in CSS that 
+specifies the visibility behavior of an element and display: “none” property is used to specify whether an element is exist 
+or not on the website.
+
+Syntax:
+
+Visibility property:
+visibility: visible| hidden | collapse | initial | inherit;
+
+Display property:
+display: none |  inline | block | inline-block;
+
+So, the difference between display: “none”; and visibility: “hidden”;, right from the name itself we can tell the difference as 
+display: “none”;, completely gets rids of the tag, as it had never exists in the HTML page whereas visibility: “hidden”;, 
+just makes the tag invisible it will still be on the HTML page occupying space it’s just invisible.
+
+CSS display: none; CSS visibility: hidden;
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         h3 {
+            display: none;
+         }
+         h2 {
+            visibility: hidden;
+         }
+      </style>
+   </head>
+   <body>
+      <h2>This heading is visible</h2>
+      <h3>This is a hidden heading</h3>
+      <p>The hidden heading does not take up space even after hiding it since we have used display: none;.</p>
+   </body>
+</html>

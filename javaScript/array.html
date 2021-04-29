@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISHEN</title>
+        <script>
+            var a = [52, 36, 89, 14, 26, 78, 99, 10];
+            var max = a[0];
+
+            document.write('Input array elements are : </br>');
+            for (let i = 0; i < a.length; i++) {
+                document.write(a[i] + '</br>');
+            }
+            for (let i = 0; i < a.length; i++) {
+                if (max < a[i]) {
+                    max = a[i];
+                }
+            }
+            document.write('</br>Max value is : ', max);
+            document.write('</br>');
+            document.write('</br>');
+            var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+            fruits.pop();
+            var x = fruits.pop();
+            document.write('</br>Popped element : ', x);
+            document.write('</br>');
+            for (let i = 0; i < fruits.length; i++) {
+                document.write('\t', fruits[i]);
+            }
+
+            let y = fruits.push('Kiwi');
+            document.write('</br>Pushed element position : ', y);
+
+            document.write('</br>');
+            var z = fruits.shift();
+            document.write('</br>Shifted element : ', z);
+
+            document.write('</br>');
+            var w = fruits.unshift('Apple');
+            document.write('</br>Unshifted element : ', w);
+
+            document.write('</br>');
+            delete fruits[0];
+            document.write('</br>');
+            for (let i = 1; i < fruits.length; i++) {
+                document.write('\t', fruits[i]);
+            }
+
+            document.write('</br>');
+            document.write('</br>');
+            var num = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+            var char = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+            document.write(num + '<br/><br/>');
+            //shift
+            num.shift();
+            document.write(num + '<br/><br/>');
+            //pop
+            num.pop();
+            document.write(num + '<br/><br/>');
+            //concatination
+            var numchar = num.concat(char);
+            document.write(numchar + '<br/><br/>');
+            //splice
+            var num2 = num;
+            num2.splice(2, 0, 'SPLICED1', 'SPLICED2'); //here 0 represents how many to remove and 2 is how many added
+            document.write(num2 + '<br/><br/>');
+            //slice
+            var slice = num.slice(3, 8);
+            document.write(slice + '<br/><br/>');
+        </script>
+    </head>
+    <body></body>
+</html>

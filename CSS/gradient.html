@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRADIENT</title>
+    <style>
+      div {
+        height: 300px;
+        background-color: aqua;
+        /*background-image: linear-gradient(green, yellow);*/
+        background-image: linear-gradient(to right, green, yellow);
+        background-image: linear-gradient(to bottom right, green, yellow);
+        background-image: linear-gradient(
+          to right,
+          violet,
+          indigo,
+          blue,
+          green,
+          yellow,
+          orange,
+          red
+        );
+        background-image: radial-gradient(
+          circle,
+          red 10%,
+          green 40%,
+          yellow 50%
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <div></div>
+  </body>
+</html>
