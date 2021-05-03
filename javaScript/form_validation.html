@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <script>
+            function validateform() {
+                var name = document.myform.name.value;
+                var password = document.myform.password.value;
+                echo(name.charAt[0]);
+                if (name.charAt[0] == '@' || name.charAt[0] == '_') {
+                    alert("Name can't be blank");
+                    return false;
+                } else if (password.length < 6) {
+                    alert('Password must be at least 6 characters long.');
+                    return false;
+                }
+            }
+        </script>
+        <form name="myform" method="post" onsubmit="return validateform()">
+            Name: <input type="text" name="name" required /><br />
+            Password: <input type="password" name="password" required /><br />
+            <input type="submit" value="register" />
+        </form>
+    </body>
+</html>

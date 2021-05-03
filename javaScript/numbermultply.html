@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISHEN</title>
+        <script>
+            let number = prompt('Enter 2 digit number');
+            // console.log(number);
+            let isnum = /^\d+$/.test(number);
+            // console.log(isnum);
+            if (isnum) {
+                let ans = 1;
+                // console.log(number.toString().length);
+                // console.log(number.toString().charAt(1));
+                if (number.toString().length == 2) {
+                    for (var i = 0; i < number.toString().charAt(1); i++) {
+                        ans *= Number(number.toString().charAt(0));
+                    }
+                    document.write('Answer is : ' + ans);
+                } else {
+                    document.write('Please enter only 2 digit number');
+                }
+            } else {
+                document.write('Please enter a number');
+            }
+        </script>
+    </head>
+</html>

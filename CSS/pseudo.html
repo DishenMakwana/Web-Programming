@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PSEUDO</title>
+        <style>
+            a:link {
+                color: #ff0000;
+            }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSEUDO</title>
-    <style>
-        a:link {
-            color: #FF0000;
-        }
+            a:visited {
+                color: #00ff00;
+            }
 
-        a:visited {
-            color: #00FF00;
-        }
+            a:hover {
+                color: #ff00ff;
+            }
 
-        a:hover {
-            color: #FF00FF;
-        }
+            a:active {
+                color: #0000ff;
+            }
 
-        a:active {
-            color: #0000FF;
-        }
+            div.first:hover {
+                background-color: aqua;
+            }
 
-        div.first:hover {
-            background-color: aqua;
-        }
+            div.first p::first-line {
+                color: #ff00ff;
+            }
 
-        div.first p::first-line {
-            color: #FF00FF;
-        }
+            input:focus {
+                border: 1px solid green;
+            }
 
-        input:focus {
-            border: 1px solid green;
-        }
+            input:hover {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
 
-        input:hover {
-            border: 1px solid red;
-        }
-    </style>
-</head>
-
-<body>
-    <a href="https://google.com" target="_blank">GOOGLE</a>
-    <div class="first">
-        Hello World
-        <a href="https://gtu.ac.in">GTU</a>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui obcaecati beatae laborum commodi vel, ex sit
-            labore dolore, corporis consequuntur odit. Totam laboriosam, laudantium repellendus quae voluptatibus
-            architecto molestias beatae!</p>
-    </div>
-    <div class="second">
-        Hello Dishen
-    </div>
-    <input type="text" name="Username" />
-</body>
-
+    <body>
+        <a href="https://google.com" target="_blank">GOOGLE</a>
+        <div class="first">
+            Hello World
+            <a href="https://gtu.ac.in">GTU</a>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                obcaecati beatae laborum commodi vel, ex sit labore dolore,
+                corporis consequuntur odit. Totam laboriosam, laudantium
+                repellendus quae voluptatibus architecto molestias beatae!
+            </p>
+        </div>
+        <div class="second">
+            <h1>Hello World</h1>
+        </div>
+    </body>
 </html>

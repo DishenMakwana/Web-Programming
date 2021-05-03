@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="demo"><h2>Loading content From text file</h2></div>
+
+        <button type="button" onclick="loadDoc()">
+            Show Content of text file
+        </button>
+        <script>
+            function loadDoc() {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function () {
+                    if (xhttp.readyState == 4 && xhttp.status == 200) {
+                        document.getElementById('demo').innerHTML =
+                            xhttp.responseText;
+                    }
+                };
+                xhttp.open('GET', 'demo.txt', true);
+                xhttp.send();
+            }
+        </script>
+    </body>
+</html>

@@ -1,158 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS POSITION</title>
+        <style>
+            @keyframes example {
+                from {
+                    background-color: red;
+                }
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS POSITION</title>
-    <style>
-        @keyframes example {
-            from {
+                to {
+                    background-color: yellow;
+                }
+            }
+
+            @keyframes animation1 {
+                0% {
+                    background-color: blue;
+                    top: 0px;
+                    left: 0px;
+                }
+
+                25% {
+                    background-color: red;
+                    top: 0px;
+                    left: 200px;
+                }
+
+                50% {
+                    background-color: yellow;
+                    top: 200px;
+                    left: 200px;
+                }
+
+                75% {
+                    background-color: green;
+                    top: 200px;
+                    left: 0px;
+                }
+
+                100% {
+                    background-color: blue;
+                    top: 0px;
+                    left: 0px;
+                }
+            }
+
+            .div7 {
+                width: 100px;
+                height: 100px;
                 background-color: red;
+                animation: example 4s;
+                animation-iteration-count: 10;
             }
 
-            to {
-                background-color: yellow;
-            }
-        }
-
-        @keyframes animation1 {
-            0% {
+            .div8 {
+                width: 100px;
+                height: 100px;
                 background-color: blue;
+                position: relative;
+                animation: animation1 6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+                animation-fill-mode: backwards;
+            }
+
+            div {
+                width: 100px;
+                height: 100px;
+            }
+
+            .div1 {
+                border: 3px solid red;
+                position: static;
+                top: 100px;
+                left: 100px;
+                z-index: -1;
+            }
+
+            .div2 {
+                border: 3px solid green;
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                z-index: 1;
+            }
+
+            .div3 {
+                border: 3px solid blue;
+                position: relative;
+                top: 25px;
+                left: 25px;
+            }
+
+            .div4 {
+                border: 3px solid aquamarine;
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+            }
+
+            .div5 {
+                border: 3px solid yellowgreen;
+                position: sticky;
                 top: 0px;
-                left: 0px;
+                z-index: 0;
             }
 
-            25% {
-                background-color: red;
-                top: 0px;
-                left: 200px;
+            .div6 {
+                border: 3px solid antiquewhite;
+                left: 25px;
             }
 
-            50% {
-                background-color: yellow;
-                top: 200px;
-                left: 200px;
+            .tooltip {
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dashed blue;
             }
 
-            75% {
-                background-color: green;
-                top: 200px;
-                left: 0px;
+            .tooltiptext {
+                visibility: hidden;
+                width: 100px;
+                background-color: #d3d3d3;
+                color: aquamarine;
+                text-align: center;
+                padding: 3px 2px;
+                border-radius: 5px;
+                position: absolute;
+                z-index: 1;
             }
 
-            100% {
-                background-color: blue;
-                top: 0px;
-                left: 0px;
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
             }
-        }
 
-        .div7 {
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            animation: example 4s;
-            animation-iteration-count: 10;
-        }
+            ul {
+                list-style-type: disc;
+                list-style-image: url('../sci.jpg');
+                list-style-position: inside;
+            }
+        </style>
+    </head>
 
-        .div8 {
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-            position: relative;
-            animation: animation1 6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-            animation-fill-mode: backwards;
-        }
-
-        div {
-            width: 100px;
-            height: 100px;
-        }
-
-        .div1 {
-            border: 3px solid red;
-            position: static;
-            top: 100px;
-            left: 100px;
-            z-index: -1;
-        }
-
-        .div2 {
-            border: 3px solid green;
-            position: absolute;
-            top: 50px;
-            left: 50px;
-            z-index: 1;
-        }
-
-        .div3 {
-            border: 3px solid blue;
-            position: relative;
-            top: 25px;
-            left: 25px;
-        }
-
-        .div4 {
-            border: 3px solid aquamarine;
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-        }
-
-        .div5 {
-            border: 3px solid yellowgreen;
-            position: sticky;
-            top: 0px;
-            z-index: 0;
-        }
-
-        .div6 {
-            border: 3px solid antiquewhite;
-            left: 25px;
-        }
-
-        .tooltip {
-            position: relative;
-            display: inline-block;
-            border-bottom: 1px dashed blue;
-        }
-
-        .tooltiptext {
-            visibility: hidden;
-            width: 100px;
-            background-color: #d3d3d3;
-            color: aquamarine;
-            text-align: center;
-            padding: 3px 2px;
-            border-radius: 5px;
-            position: absolute;
-            z-index: 1;
-        }
-
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="div1">Hello World</div>
-    <div class="div2">VVP</div>
-    <div class="div5">Hosiyar</div>
-    <div class="div3">6th Sem</div>
-    <div class="div4">G2</div>
-    <div class="div5">Hosiyar</div>
-    <div class="div6">Hosiyar</div>
-    <div class="div6">Hosiyar</div>
-    <!-- <div class="div7">KeyFrame</div> -->
-    <!-- <div class="div8">KeyFrame2</div> -->
-    <div class="tooltip">Hover over me
-        <span class="tooltiptext">Tooltiptext</span>
-    </div>
-</body>
-
+    <body>
+        <div class="div1">Hello World</div>
+        <div class="div2">VVP</div>
+        <div class="div5">Hosiyar</div>
+        <div class="div3">6th Sem</div>
+        <div class="div4">G2</div>
+        <div class="div5">Hosiyar</div>
+        <div class="div6">Hosiyar</div>
+        <div class="div6">Hosiyar</div>
+        <div class="div7">KeyFrame</div>
+        <div class="div8">KeyFrame2</div>
+        <div class="tooltip">
+            Hover over me
+            <span class="tooltiptext">Tooltiptext</span>
+        </div>
+        <div class="div9">
+            <ol>
+                <li>A X</li>
+                <li>B Y</li>
+                <li>C Z</li>
+            </ol>
+            <ul>
+                <li>ABC</li>
+                <li>XYZ</li>
+                <li>PQR</li>
+            </ul>
+        </div>
+    </body>
 </html>

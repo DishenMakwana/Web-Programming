@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Variable</title>
+        <style>
+            :root {
+                --blue: #1e90ff;
+                --white: #ffffff;
+            }
+            body {
+                background-color: var(--blue);
+            }
+            h2 {
+                border-bottom: 2px solid var(--blue);
+            }
+            p {
+                --blue: #0000ff;
+                color: var(--blue);
+                background-color: var(--white);
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Hello World</h2>
+        <p>I am CSS Variable</p>
+    </body>
+</html>

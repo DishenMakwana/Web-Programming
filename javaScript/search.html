@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var word = prompt('Enter a word you want to search for:', '');
+
+            document.write('Entered Word : ' + word + '<br>');
+            var string =
+                'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo qui dignissimos aliquid eveniet tenetur, iste provident reprehenderit! Ullam omnis alias ex facere, illum vel ab vitae quisquam perspiciatis nobis quod. Dignissimos tenetur itaque optio unde tempora quidem modi recusandae, cum, cumque voluptatum asperiores esse perferendis? Sunt, deserunt ipsum molestias obcaecati in ab officiis praesentium necessitatibus dolores animi sint, perspiciatis possimus! Suscipit doloribus quaerat veniam similique? Mollitia, saepe tenetur quos quam totam odio accusantium minima fuga atque porro perspiciatis! Soluta, aliquam. Libero quae assumenda rerum alias pariatur? Doloribus ad rerum beatae? Libero, atque aut quas sequi ab adipisci eaque asperiores corrupti, vitae voluptatem, voluptate dignissimos possimus cum distinctio magnam? Quod inventore aperiam, dolorum eum fugiat dignissimos vitae debitis porro temporibus aspernatur. Vel, ut maxime velit et commodi ipsa aut, rem quasi at iusto recusandae sequi odit inventore atque! Nesciunt, placeat. Iusto harum est debitis ipsam voluptates adipisci fugit illo suscipit quae. Alias natus repellat praesentium autem! Eius alias ratione esse mollitia, porro facilis odit explicabo? Reiciendis magnam dicta temporibus accusamus tempora facilis? Aliquid voluptate consequatur similique doloribus quibusdam ab molestiae natus';
+            var index = string.search(word);
+            if (index == -1) {
+                index = 'Word not found';
+            }
+            document.write('Enter word position : ', index);
+        </script>
+    </head>
+    <body>
+        <h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            qui dignissimos aliquid eveniet tenetur, iste provident
+            reprehenderit! Ullam omnis alias ex facere, illum vel ab vitae
+            quisquam perspiciatis nobis quod. Dignissimos tenetur itaque optio
+            unde tempora quidem modi recusandae, cum, cumque voluptatum
+            asperiores esse perferendis? Sunt, deserunt ipsum molestias
+            obcaecati in ab officiis praesentium necessitatibus dolores animi
+            sint, perspiciatis possimus! Suscipit doloribus quaerat veniam
+            similique?
+        </h2>
+    </body>
+</html>

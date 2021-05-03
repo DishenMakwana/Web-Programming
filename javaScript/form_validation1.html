@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Form Validation</title>
+        <script>
+            function validate() {
+                var uname = document.getElementById('name1').value;
+                var psw = document.getElementById('pass').value;
+                if (
+                    uname.charAt(0) == '@' ||
+                    uname.charAt(0) == '_' ||
+                    uname.charAt(0) >= '0' ||
+                    uname.charAt(0) <= '9'
+                ) {
+                    alert('Invalid Username!!');
+                    return false;
+                } else if (psw.length < 6) {
+                    alert('Password length must be greater than 6..');
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1" onsubmit="return validate();">
+            Name:
+            <input type="text" id="name1" name="uname" required /><br /><br />
+            Password:
+            <input type="password" id="pass" name="psw" required /><br /><br />
+            <input type="submit" value="Login" />
+        </form>
+    </body>
+</html>

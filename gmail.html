@@ -1,0 +1,409 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            overflow: hidden;
+            background-color: #f1f1f1;
+            width:100%;
+            padding:20px;
+            height: 70px;
+        }
+        .hleft{
+            float: left;
+        }
+        .hright{
+            float:right;
+        }
+        .form{
+            float:right;
+            padding: 50px;;
+        }
+        #lab{
+            font-size: 13px;
+            text-align: left;  
+        }
+        #inp{
+            height:30px;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+        }
+        .lside-bar{
+             width: 40%;
+            color: #737377;
+            margin: -8px;
+            display: block;
+            position: relative;
+            box-sizing: border-box;
+        }
+        .form{
+            display: inline-block;
+            box-sizing: border-box;
+             margin-left: 8%;
+            position:relative;
+            padding: 25px;
+        }
+        .table1{
+             background-color: #f1f1f1;
+             display: inline-block;
+            position:relative;
+            padding:30px ;
+            
+            margin-right: 200px ;
+        }
+        .month
+        {
+            width: 42%;
+            margin-right: auto;
+            display: inline-block;
+            font-size: 13px;
+            font-weight: bold;
+            color: #444;
+            background-color: #f3f3f3;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+            padding: 8px 8px;
+        }
+        #year
+        {
+            width: 33%;
+            margin-right: auto;
+            margin-right: 0px;
+        }
+         #day,#year
+        {
+            width: 96px;
+            display: inline-block;
+            margin: auto;
+            font-size: 14px;
+            height:34px;
+        }
+        .main
+        {
+            font-family: "Open Sans" , Arial ;
+            text-align: center;
+            color:#555;
+            margin: auto;
+
+        }
+        .container
+        {
+            padding:0px;
+            height: 100%;
+
+        }
+         .parent
+        {
+            display: inline-block;
+            position: relative;
+            margin-left: 30px;
+            width: 570px;
+        }
+        .elements
+        {
+            width:100%;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+            padding: 5px 8px;
+            margin-top: 6px;
+            margin-bottom: 18px;
+            margin-right: auto;
+            margin-left: auto;
+            display: inline-block;
+            font-size: 14px;
+            outline: none;
+            z-index: -1;
+        }
+         .gender,.location
+        {
+            background-color: #f3f3f3;
+            padding:8px 8px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+         .s-button
+            {
+                padding: 11px;
+                height: 37px;
+            }
+              .ns-button
+        {
+            font-size: 11px;
+            width: 100;
+            padding: 7px;
+            position: relative;
+            height: 32px;
+            float:right;
+            background-color: #357AE8;
+            color:white;
+        }
+         .side-bar
+        {
+            width: 40%;
+            color: #737377;
+            margin: -8px;
+           float: left;
+           margin-left:180px;
+          
+        }
+        .parent
+        {
+           float:right;
+            
+            margin-left: 30px;
+            margin:70px;
+            
+        }
+         .signupbox {
+            display: inline-block;
+            background-color: #f1f1f1;
+            color: #000;
+            margin-left: 8%;
+            padding: 24px;
+            width: 366px;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-size: 13px;
+            text-align: left;
+            z-index: -1;
+        }
+        .img-inline{
+            display:inline-block;
+            width: 232px;
+        }
+        .text-inline{
+            display:inline-block;
+            align-items: right;
+            width: 252px;
+        }
+        .container2 {
+    
+            height:auto;
+            padding:1%;
+            float:left;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="hleft">
+                <img src="logo1.png" height="30px" width="100px">
+            </div>
+            <div class="hright">
+                <button>Sign up</button>
+            </div>
+        </div>
+        <div class="main">
+             <div class="container">
+                <div class="side-bar">
+                    <h3 style="color:red;float:center; display:block;text-align:left;margin-left:7px;">Create a new Google Account</h3><br>
+                   <div class="container2"> <div class="img-inline"><img src="gmailp.png" style="align-items: left;"></div>&nbsp;&nbsp;&nbsp;<div class="text-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, modi. Quo est error veritatis qui illo a porro, saepe excepturi harum hic architecto impedit commodi, accusantium aspernatur, explicabo assumenda illum. Your Gmail account is more than ur account</div>
+                </div>
+            </div>
+                
+                 <div class="parent">
+                   
+                     <div class="table1">
+                         <table cellpadding="5px">
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Name</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" id="inp"
+                                            placeholder="First">
+                                    </td>
+                                    <td>
+                                        <input id="inp" type="text"
+                                            placeholder="Last">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Choose Your Username</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="text" id="inp"
+                                            style="width:350px; height:30px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Create a Password</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="password" id="inp"
+                                            style="width:350px; height:30px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Confirm your Password</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="password" id="inp"
+                                            style="width:350px; height:30px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Birthday</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div style="width: 100%">
+                                            <select class="month" name="month">
+                                                <option value="month" selected>Month</option>
+                                                <option value="jan">January</option><br>
+                                                <option class="opt" value="feb">Februray</option><br>
+                                                <option class="opt" value="mar">March</option><br>
+                                                <option class="opt"
+                                                    value="aprl">April</option><br>
+                                                <option class="opt" value="may">May</option><br>
+                                                <option class="opt"
+                                                    value="june">June</option><br>
+                                                <option class="opt"
+                                                    value="july">July</option><br>
+                                                <option class="opt" value="aug">August</option><br>
+                                                <option class="opt"
+                                                    value="sept">September</option><br>
+                                                <option class="opt" value="oct">October</option><br>
+                                                <option class="opt" value="nov">November</option><br>
+                                                <option class="opt" value="dec">December</option><br>
+                                            </select>
+                                            <input type="text" class="elements"
+                                                id="day" name="Day"
+                                                placeholder="Day">
+                                            <input type="text" class="elements"
+                                                id="year" name="Year"
+                                                placeholder="Year"><br>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Gender</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <select name="gender" class="elements
+                                            gender">
+                                            <option value="i am" selected
+                                                disabled hidden>I am...</option>
+                                            <option value="female" class="opt">Female</option><br>
+                                            <option value="male" class="opt">Male</option><br>
+                                            <option value="other" class="opt">Other</option><br>
+                                            <option value="notsay">Rather not
+                                                say</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Mobile Phone</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="text" class="elements"
+                                            style="height: 34px;" value="+91">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Your current email
+                                                address</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="text" class="elements"
+                                            style="height: 34px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Prove you are not a
+                                                robot</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="checkbox">Skip this
+                                        verification(Phone verification may be
+                                        required)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="captcha1.png" width="380px">
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <label id="lab"><b>Location</b></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <select name="gender" class="elements
+                                            gender">
+                                            <option value="i am" selected
+                                                disabled hidden>India</option>
+                                            <option value="female" class="opt">Female</option><br>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="checkbox">I agree to the
+                                        Google <a href="#">Terms of Service</a>
+                                        and <a href="#">Privacy Policy</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="checkbox" checked>Google
+                                        may use my account information to <br>personalize
+                                        +1's content and ads on<br>non-Google
+                                        websites. <a href="#">About
+                                            Personalization</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input value="Next Step" class="s-button
+                                            ns-button">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+            </div>
+        </div>
+    </body>
+</html>

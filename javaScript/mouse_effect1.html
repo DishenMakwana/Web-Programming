@@ -1,0 +1,21 @@
+<html>
+    <head> </head>
+    <body>
+        <h1 id="heading">This is heading tag</h1>
+        <script>
+            document
+                .getElementById('heading')
+                .addEventListener('mouseover', mouseOver);
+            document
+                .getElementById('heading')
+                .addEventListener('mouseout', mouseOut);
+            function mouseOver() {
+                document.getElementById('heading').style.color = 'yellow';
+            }
+
+            function mouseOut() {
+                document.getElementById('heading').style.color = 'black';
+            }
+        </script>
+    </body>
+</html>

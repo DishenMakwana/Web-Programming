@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Mouser Effect & Hover & Click</title>
+        <script type="text/javascript">
+            function time_find() {
+                var t = new Date();
+                document.getElementById('display').innerHTML = t;
+            }
+
+            function to_red(color) {
+                document.body.style.background = 'red';
+            }
+            function to_green() {
+                document.body.style.background = 'green';
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="heading">This is heading tag</h1>
+        <script>
+            document
+                .getElementById('heading')
+                .addEventListener('mouseover', mouseOver);
+            document
+                .getElementById('heading')
+                .addEventListener('mouseout', mouseOut);
+            function mouseOver() {
+                document.getElementById('heading').style.color = 'yellow';
+            }
+            function mouseOut() {
+                document.getElementById('heading').style.color = 'black';
+            }
+        </script>
+        <br />
+        <br />
+        <input type="button" value="Find Time" onclick="time_find();" />
+        <div id="display"></div>
+        <br />
+        <br />
+        <button onclick="to_red()" style="background-color: red" ;>
+            Click here
+        </button>
+        <button onclick="to_green()" style="background-color: green" ;>
+            Click here
+        </button>
+    </body>
+</html>
